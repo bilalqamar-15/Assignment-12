@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html, body{
+    
+    background-color: azure;
+   
+}
+
+   
+
+     
+nav{
+    height: 60px ;
+    display: flex;
+    font-family: "Matemasie", sans-serif;
+    align-items: center;
+}
+nav svg:nth-of-type(1) {
+   
+       margin-left: 20px ;
+       margin-right: 20px ;
+
+}
+nav div{
+     background-color: #EAF1FB;
+     border-radius: 50px ;
+     height: 50px ;
+     width: 40vw ;
+     margin-left: 120px;
+     display: flex;
+     align-items: center;
+     font-family: "Matemasie", sans-serif;
+  
+}
+
+nav div input{
+      background: transparent;
+      border: none;
+      font-size: 130%;
+      font-family: "Matemasie", sans-serif;
+      width: 35vw ;
+}
+.nav-svag{
+    margin-left: 12px ;
+    margin-right: 12px ;
+}
+nav img{
+      
+    height: 06vh ;
+    width: 06vw 
+}
+main{
+    display: flex;
+    font-family: "Matemasie", sans-serif;
+}
+#left{
+   
+     height: 90vh  ;
+     width: 15vw ;
+     background-color:#FFFFFF;
+     display: inline-block;
+
+}
+#middle{
+    height: 90vh ;
+    width:  80vw ;
+    background-color:#FFFFFF;
+    border-radius: 20px ;
+    display: inline-block;
+ 
+    
+   
+    
+}
+     
+
+
+
+#left button{
+    height: 6vh ;
+     border-radius: 20px ;
+     width: 6vw ;
+     margin-left: 20px ;
+     background-color: #C2E7FF;
+     margin-top: 25px ;
+     cursor: pointer;
+     border: none;
+     
+     
+}
+.list{
+    width: 90px; 
+    margin-top: 20px ;
+    display: flex;
+
+   
+
+}
+.list svg{
+    margin-left: 15px ;
+}
+.list p{
+    margin-left: 08px ;
+
+}
+
+.output{
+    margin-left: 70px ;
+    margin-top: 20px;
+}
+.nav-tab{
+      height: 100px ;
+      display: inline-flex;
+      width: 20vw ;
+      align-items: center;
+      margin-left: 60px ;
+     
+      
+}
+    
+.tab svg{
+    margin-left: 15px ;
+}
+
